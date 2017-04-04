@@ -268,7 +268,7 @@ p.copyright {
 }
 
 @media handheld, only screen and (min-width: 640px) {
-  img:hover{
+  .imghover img:hover {
     transform:scale(1.2);
     -webkit-transition: all 500ms ease-in-out; // IE 9
     -moz-transition: all 500ms ease-in-out; // Firefox
@@ -282,7 +282,7 @@ p.copyright {
 }
 
 @media only screen and (min-width: 640px) {
-  img:hover{
+  .imghover img:hover {
     -webkit-transition: all 500ms ease-in-out; // IE 9
     -moz-transition: all 500ms ease-in-out; // Firefox
     -ms-transition: all 500ms ease-in-out; // Safari and Chrome
